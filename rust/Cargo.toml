@@ -1,0 +1,13 @@
+[package]
+name = "maxcut"
+version = "0.1.0"
+edition = "2021"
+description = "MaxCut algorithms: randomized and two deterministic derandomizations"
+
+[[bin]]
+name = "maxcut"
+path = "src/main.rs"
+
+[lib]
+name = "maxcut"
+path = "src/lib.rs"

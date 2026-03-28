@@ -1,0 +1,7 @@
+# Rust
+rust/target/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
