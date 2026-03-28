@@ -154,8 +154,8 @@ def conditional_expectations_maxcut(
     The difference simplifies to:
 
         e(..., r_{i+1}=0) - e(..., r_{i+1}=1)
-            = |cut({i+1}, S_i)| - |cut({i+1}, T_i)|
-            = (# placed neighbors in S) - (# placed neighbors in T)
+            = |cut({i+1}, T_i)| - |cut({i+1}, S_i)|
+            = (# placed neighbors in T) - (# placed neighbors in S)
 
     So: place vertex i in T (side 1) iff it has >= as many placed neighbors in S
     as in T (tie-breaks to T).  Equivalently: place each vertex on the OPPOSITE
